@@ -8,3 +8,4 @@ function destructivelyAddElementToEndOfArray(array, element){  array.push(elemen
   function accessElementInArray(array, index){return array[2]}
 function destructivelyRemoveElementFromBeginningOfArray (array){array.shift()
   return array}
+function removeElementFromBeginningOfArray(array,element){array.slice(1)}
