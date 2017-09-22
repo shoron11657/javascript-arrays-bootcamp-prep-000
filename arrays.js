@@ -11,3 +11,4 @@ function destructivelyRemoveElementFromBeginningOfArray (array){array.shift()
 function removeElementFromBeginningOfArray(array){return array.slice(1)}
 function destructivelyRemoveElementFromEndOfArray(array,element){array.pop()
   return array}
+function removeElementFromEndOfArray(array,element){return array.slice(0,-1)}
