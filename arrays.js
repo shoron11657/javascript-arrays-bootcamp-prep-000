@@ -5,4 +5,4 @@ function destructivelyAddElementToBeginningOfArray(array,element){  array.unshif
 function addElementToEndOfArray(array,element){return [...array, element]}
 function destructivelyAddElementToEndOfArray(array, element){  array.push(element)
   return array}
-  function accessElementInArray(array,index){return element[0]}
+  function accessElementInArray(array,index){return array[0]}
